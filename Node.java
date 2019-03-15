@@ -28,4 +28,8 @@ class node_class implements Node{
     public List<Broker> getBr(){
         return br;
     }
+
+    public void dokimi(){
+        System.out.println("dokimi");
+    }
 }
