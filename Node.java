@@ -30,6 +30,6 @@ class node_class implements Node{
     }
 
     public void dokimi(){
-        System.out.println("dokimi");
+    	System.out.println("dokimi");
     }
 }
