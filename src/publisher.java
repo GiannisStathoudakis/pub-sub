@@ -58,7 +58,7 @@ public class publisher extends Thread {
             int i = 0;
 
             do{
-                message = "x: " + x_y.get(i)[0] + ", y: " + x_y.get(i)[1];
+                message = x_y.get(i)[0] + " " + x_y.get(i)[1];
 
                 coordinates.set(where_i_go_in_arraylist, message);
                 i++;
